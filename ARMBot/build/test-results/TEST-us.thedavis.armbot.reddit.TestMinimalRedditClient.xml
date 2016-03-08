@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="us.thedavis.armbot.reddit.TestMinimalRedditClient" tests="5" skipped="0" failures="0" errors="0" timestamp="2016-03-08T04:06:02" hostname="Moria" time="0.217">
+  <properties/>
+  <testcase name="testIsAuthenticated_False" classname="us.thedavis.armbot.reddit.TestMinimalRedditClient" time="0.183"/>
+  <testcase name="testAuthentication_Success" classname="us.thedavis.armbot.reddit.TestMinimalRedditClient" time="0.023"/>
+  <testcase name="testIsAuthenticated_True" classname="us.thedavis.armbot.reddit.TestMinimalRedditClient" time="0.0"/>
+  <testcase name="testAuthentication_Failure" classname="us.thedavis.armbot.reddit.TestMinimalRedditClient" time="0.006"/>
+  <testcase name="testDeauthenticate" classname="us.thedavis.armbot.reddit.TestMinimalRedditClient" time="0.003"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
