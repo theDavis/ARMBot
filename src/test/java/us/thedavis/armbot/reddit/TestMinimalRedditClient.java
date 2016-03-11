@@ -19,10 +19,6 @@ import net.dean.jraw.http.oauth.OAuthHelper;
 
 public class TestMinimalRedditClient {
 	
-	private Credentials getCredentials(){
-		return Credentials.script("a", "dummy", "credentials", "instance");
-	}
-	
 	@Test
 	public void testAuthentication_Success() throws Exception{
 		RedditClient client = mock(RedditClient.class);
