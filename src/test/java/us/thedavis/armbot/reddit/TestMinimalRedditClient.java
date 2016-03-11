@@ -31,6 +31,10 @@ public class TestMinimalRedditClient {
 		mrc.authenticate();
 		verify(client, atLeastOnce()).authenticate(any(OAuthData.class));
 	}
+
+	public String testSomeOtherMethod(){
+		return "SomeOtherMethod";
+	}
 	
 	@Test(expected=NetworkException.class)
 	public void testAuthentication_Failure() throws Exception{
